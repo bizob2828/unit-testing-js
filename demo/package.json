@@ -1,0 +1,31 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "description": "CharmCityJS Meetup Demo",
+  "main": "Gruntfile.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "author": "Bob Evans",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^3.3.0",
+    "grunt": "^0.4.5",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-copy": "^0.8.1",
+    "grunt-contrib-jshint": "^0.11.3",
+    "grunt-env": "^0.4.4",
+    "grunt-istanbul": "^0.6.1",
+    "grunt-mocha-test": "^0.12.7",
+    "grunt-shell": "^1.1.2",
+    "istanbul": "^0.3.22",
+    "mocha": "^2.3.3",
+    "proxyquire": "^1.7.3",
+    "sinon": "^1.17.1",
+    "sinon-chai": "^2.8.0",
+    "xunit-file": "0.0.8"
+  }
+}
