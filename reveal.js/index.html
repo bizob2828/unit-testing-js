@@ -15,7 +15,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
 
 		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/league.css" id="theme">
+		<link rel="stylesheet" href="css/theme/beige.css" id="theme">
 
 		<!-- Code syntax highlighting -->
 		<link rel="stylesheet" href="lib/css/zenburn.css">
@@ -35,13 +35,13 @@
 	</head>
 
 	<body>
-
+    <img src="http://app.sparkpost.com/assets/images/sp-bymsys-sm.svg" height="68" width="188" alt="SparkPost" style="position: fixed; left: 3%; bottom: 5%;">
 		<div class="reveal">
 
 			<!-- Any section element inside of this container is displayed as a slide -->
 			<div class="slides">
 				<section>
-					<h1>Unit Testing for JS</h1>
+					<h1>Unit Testing in JS</h1>
           <h3>What are you waiting for?</h3>
 					<p>
           <small>Bob Evans - Manager Software Engineering, SparkPost</small>
@@ -57,7 +57,7 @@
         <section>
           <h2>Definition</h2>
           <blockquote cite="me">
-            &ldquo;Unit testing is the process of asserting flow of a method by isolating external code via stubbing/mocking out its surroundings and dependencies.&rdquo; - Me
+            &ldquo;Unit testing is the process of asserting flow of a methhod by isolating external code via stubbing/mocking its surroundings and dependencies.&rdquo; - Me
           </blockquote>
         </section>
 
@@ -286,19 +286,11 @@
         <section>
           <h2>Frameworks, Assertion Libraries, Etc</h2>
           <ul>
-            <li>Mocha: <span class="fragment">framework</span></li>
-            <li>Jasmine: <span class="fragment">framework</span></li>
-            <li>QUnit:  <span class="fragment">framework</span></li>
-            <li>YUI:  <span class="fragment">framework</span></li>
-            <li>should.js:  <span class="fragment">assertion lib</span></li>
-            <li>expect.js:  <span class="fragment">assertion lib</span></li>
-            <li>chai:  <span class="fragment">assertion lib</span></li>
+            <li>Mocha, Jasmine, Qunit, YUI: <span class="fragment">frameworks</span></li>
+            <li>should.js, expect.js, chai, chai-as-promised:  <span class="fragment">assertion libs</span></li>
             <li>Karma.js: <span class="fragment">test environment</span></li>
-            <li>sinon: <span class="fragment">spies, stubs, mocks</span></li>
-            <li>chai-as-promised, sinon-as-promise: <span class="fragment">your friend for testing promises</span></li>
-            <li>istanbul: <span class="fragment">code coverage</span></li>
-            <li>blanket: <span class="fragment">code coverage</span></li>
-            <li>JsCover: <span class="fragment">code coverage</span></li>
+            <li>sinon, sinon-as-promised: <span class="fragment">spies, stubs, mocks</span></li>
+            <li>istanbul, blanket, JsCover: <span class="fragment">code coverage</span></li>
           </ul>
 
         </section>
